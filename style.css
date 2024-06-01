@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    background-position: fixed;
+    line-height: 25px;
+}
+
+.content {
+    background-color: #fbf468;
+    border-radius: 25px;
+    width: 300px;
+    height: 370px;
+    padding: 10px;
+
+
+}
+
+input {
+    font-family: tahoma;
+    font-size: 10px;
+    color: #070707;
+    height: 30px;
+    padding: 0 10px;
+    width: 200px;
+    margin: 5px 10px;
+    border: #b4b349 solid 1px;
+    background-color: transparent;
+    float: center;
+    outline: 0;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: #949331 solid 1px;
+}
+
+.righteye {
+    width: 25px;
+    left: 175px;
+    position: absolute;
+    top: 75px;
+}
+
+.lefteye {
+    width: 25px;
+    left: 110px;
+    position: absolute;
+    top: 75px;
+}
+
+.bob {
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.center {
+    /* it can be one thing with the content */
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.f1 {
+    text-align: center;
+}
